@@ -26,3 +26,49 @@
     background-color: #45A1F7;
   }
   
+  * {box-sizing: border-box;}
+  body {font-family: Verdana, sans-serif;}
+  .mySlides {display: none;}
+  img {vertical-align: middle;}
+  
+  * {box-sizing:border-box}
+
+/* Styles for the slideshow container */
+.slideshow-container {
+  position: relative;
+  width: 100%;
+  height: 100vh; /* Make the slideshow container full-height of the viewport */
+  overflow: hidden; /* Hide overflow to prevent scroll bars */
+}
+
+/* Styles for the individual slides */
+.mySlides {
+  display: none;
+  width: 100%;
+  height: 100%; /* Make each slide full-screen */
+}
+
+/* Style for the images within the slides */
+.mySlides img {
+  width: 100%; /* Set images to 100% width of their slide container */
+  height: 100%; /* Set images to 100% height of their slide container */
+  object-fit: cover; /* Maintain aspect ratio and cover the entire slide */
+}
+
+/* Style for the navigation dots */
+.dot {
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.3s ease;
+}
+
+/* Style for the active dot */
+.active {
+  background-color: #717171;
+}
+
+
