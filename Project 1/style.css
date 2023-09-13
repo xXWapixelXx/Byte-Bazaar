@@ -71,4 +71,9 @@
   background-color: #717171;
 }
 
-
+.Collage {
+  display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 3 kolommen, pas aan indien nodig */
+    gap: 10px; 
+    text-align: center;
+}
